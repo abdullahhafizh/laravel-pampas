@@ -1,8 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "name": "abdullahhafizh/laravel-pampas",
+    "description": "Laravel Pampas Theme.",
+    "keywords": ["theme"],    
     "type": "project",
     "require": {
         "php": ">=7.0.0",
