@@ -168,6 +168,8 @@ return [
          * Package Service Providers...
          */
         Intervention\Image\ImageServiceProvider::class,
+        Jenssegers\Agent\AgentServiceProvider::class,
+        Spatie\PaginateRoute\PaginateRouteServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -193,6 +195,7 @@ return [
 
     'aliases' => [
 
+        'Agent' => Jenssegers\Agent\Facades\Agent::class,
         'App' => Illuminate\Support\Facades\App::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
         'Auth' => Illuminate\Support\Facades\Auth::class,
@@ -214,6 +217,7 @@ return [
         'Log' => Illuminate\Support\Facades\Log::class,
         'Mail' => Illuminate\Support\Facades\Mail::class,
         'Notification' => Illuminate\Support\Facades\Notification::class,
+        'PaginateRoute' => Spatie\PaginateRoute\PaginateRouteFacade::class,
         'Password' => Illuminate\Support\Facades\Password::class,
         'Queue' => Illuminate\Support\Facades\Queue::class,
         'Redirect' => Illuminate\Support\Facades\Redirect::class,

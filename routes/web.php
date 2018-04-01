@@ -18,3 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// Generates /users & /users/page/{page}
+// Route::paginate('users', 'UsersController@index');
+// https://github.com/spatie/laravel-paginateroute
